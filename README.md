@@ -1,14 +1,16 @@
 # [React Bits](https://vasanthk.gitbooks.io/react-bits)
 
-A compilation of React Patterns, techniques, tips and tricks.
+有关React，你需要知道的一切
 
 **Gitbook format**: https://vasanthk.gitbooks.io/react-bits
+
+原Repo地址 https://github.com/vasanthk/react-bits
 
 > Your contributions are heartily ♡ welcome. (✿◠‿◠)
 
 - Design Patterns and Techniques
-  - [Conditional in JSX](./patterns/18.conditionals-in-jsx.md)
-  - [Async Nature Of setState()](./patterns/19.async-nature-of-setState.md)
+  - ✔️[Conditional in JSX](./patterns/18.conditionals-in-jsx.md)
+  - ✔️[Async Nature Of setState()](./patterns/19.async-nature-of-setState.md)
   - [Dependency Injection](./patterns/20.dependency-injection.md)
   - [Context Wrapper](./patterns/21.context-wrapper.md)
   - [Event Handlers](./patterns/22.event-handlers.md)
