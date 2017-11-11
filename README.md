@@ -12,7 +12,7 @@
   - ✔️[Conditional in JSX](./patterns/18.conditionals-in-jsx.md)
   - ✔[Async Nature Of setState()](./patterns/19.async-nature-of-setState.md)
   - ✔[Dependency Injection](./patterns/20.dependency-injection.md)
-  - [Context Wrapper](./patterns/21.context-wrapper.md)
+  - ✔[Context Wrapper](./patterns/21.context-wrapper.md)
   - [Event Handlers](./patterns/22.event-handlers.md)
   - [Flux Pattern](./patterns/23.flux-pattern.md)
   - [One Way Data Flow](./patterns/24.one-way-data-flow.md)
