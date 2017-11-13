@@ -13,7 +13,7 @@
   - ✔[Async Nature Of setState()](./patterns/19.async-nature-of-setState.md)
   - ✔[Dependency Injection](./patterns/20.dependency-injection.md)
   - ✔[Context Wrapper](./patterns/21.context-wrapper.md)
-  - [Event Handlers](./patterns/22.event-handlers.md)
+  - ✔[Event Handlers](./patterns/22.event-handlers.md)
   - [Flux Pattern](./patterns/23.flux-pattern.md)
   - [One Way Data Flow](./patterns/24.one-way-data-flow.md)
   - [Presentational vs Container](./patterns/25.presentational-vs-container.md)
