@@ -15,7 +15,7 @@
   - ✔[Context Wrapper](./patterns/21.context-wrapper.md)
   - ✔[Event Handlers](./patterns/22.event-handlers.md)
   - ✔[Flux Pattern](./patterns/23.flux-pattern.md)
-  - [One Way Data Flow](./patterns/24.one-way-data-flow.md)
+  - ✔[One Way Data Flow](./patterns/24.one-way-data-flow.md)
   - [Presentational vs Container](./patterns/25.presentational-vs-container.md)
   - [Third Party Integration](./patterns/26.third-party-integration.md)
   - [Passing Function To setState()](./patterns/27.passing-function-to-setState.md)
