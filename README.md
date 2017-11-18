@@ -27,7 +27,7 @@
   - ✔[Format Text via Component](./patterns/33.format-text-via-component.md)
   - ✔[Share Tracking Logic](./patterns/34.share-tracking-logic.md)
 - Anti-Patterns
-  - [Introduction](./anti-patterns/README.md)
+  - ✔[Introduction](./anti-patterns/README.md)
   - [Props In Initial State](./anti-patterns/01.props-in-initial-state.md)
   - [findDOMNode()](./anti-patterns/02.findDOMNode.md)
   - [Mixins](./anti-patterns/03.mixins.md)
