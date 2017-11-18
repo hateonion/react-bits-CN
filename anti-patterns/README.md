@@ -1,3 +1,3 @@
 # Anti-patterns
 
-Familiarizing ourselves with common anti-patterns will help us understand how React works and describe useful forms of refactoring our code.
+熟悉常见的坏实践能帮助我们理解React是如何工作的并且给我们重构代码提供不错的指导.
