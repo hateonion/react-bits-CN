@@ -28,7 +28,7 @@
   - ✔[Share Tracking Logic](./patterns/34.share-tracking-logic.md)
 - Anti-Patterns
   - ✔[Introduction](./anti-patterns/README.md)
-  - [Props In Initial State](./anti-patterns/01.props-in-initial-state.md)
+  - ✔[Props In Initial State](./anti-patterns/01.props-in-initial-state.md)
   - [findDOMNode()](./anti-patterns/02.findDOMNode.md)
   - [Mixins](./anti-patterns/03.mixins.md)
   - [setState() in componentWillMount()](./anti-patterns/04.setState-in-componentWillMount.md)
