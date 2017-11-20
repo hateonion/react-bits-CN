@@ -7,6 +7,7 @@
 原Repo地址 https://github.com/vasanthk/react-bits
 
 > Your contributions are heartily ♡ welcome. (✿◠‿◠)
+> 新司机上路, 欢迎大家随时提issue和pr进行指正
 
 - Design Patterns and Techniques
   - ✔️[Conditional in JSX](./patterns/18.conditionals-in-jsx.md)
