@@ -29,12 +29,12 @@
 - Anti-Patterns
   - ✔[Introduction](./anti-patterns/README.md)
   - ✔[Props In Initial State](./anti-patterns/01.props-in-initial-state.md)
-  - [findDOMNode()](./anti-patterns/02.findDOMNode.md)
-  - [Mixins](./anti-patterns/03.mixins.md)
-  - [setState() in componentWillMount()](./anti-patterns/04.setState-in-componentWillMount.md)
-  - [Mutating State](./anti-patterns/05.mutating-state.md)
-  - [Using Indexes as Key](./anti-patterns/06.using-indexes-as-key.md)
-  - [Spreading Props on DOM elements](./anti-patterns/07.spreading-props-dom.md)
+  - ✔[findDOMNode()](./anti-patterns/02.findDOMNode.md)
+  - ✔[Mixins](./anti-patterns/03.mixins.md)
+  - ✔[setState() in componentWillMount()](./anti-patterns/04.setState-in-componentWillMount.md)
+  - ✔[Mutating State](./anti-patterns/05.mutating-state.md)
+  - ✔[Using Indexes as Key](./anti-patterns/06.using-indexes-as-key.md)
+  - ✔[Spreading Props on DOM elements](./anti-patterns/07.spreading-props-dom.md)
 - Handling UX Variations
   - [Introduction](./ux-variations/README.md)
   - [Composing UX Variations](./ux-variations/01.composing-variations.md)
