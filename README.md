@@ -49,8 +49,7 @@
   - ✔ [shouldComponentUpdate() check](./perf-tips/01.shouldComponentUpdate-check.md)
   - [Using Pure Components](./perf-tips/02.pure-component.md)
   - [Using reselect](./perf-tips/03.reselect.md)
-- S
-- tyling
+- Styling
   - [Introduction](./styling/README.md)
   - [Stateless UI Components](./styling/01.stateless-ui-components.md)
   - [Styles Module](./styling/02.styles-module.md)
@@ -61,7 +60,7 @@
   - [Typography Component](./styling/07.typography-component.md)
   - [HOC for Styling](./styling/08.HOC-for-styling.md)
 - Gotchas
-  - [Introduction](./gotchas/README.md)
-  - [Pure render checks](./gotchas/01.pure-render-checks.md)
+  - ✔ [Introduction](./gotchas/README.md)
+  - ✔ [Pure render checks](./gotchas/01.pure-render-checks.md)
   - [Synthetic Events](./gotchas/02.synthetic-events.md)
 - [Related Links](./READINGS.md)
