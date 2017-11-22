@@ -37,7 +37,7 @@
   - ✔ [Using Indexes as Key](./anti-patterns/06.using-indexes-as-key.md)
   - ✔ [Spreading Props on DOM elements](./anti-patterns/07.spreading-props-dom.md)
 - Handling UX Variations
-  - [Introduction](./ux-variations/README.md)
+  - 👍 [Introduction](./ux-variations/README.md)
   - [Composing UX Variations](./ux-variations/01.composing-variations.md)
   - [Toggle UI Elements](./ux-variations/02.toggle-ui-elements.md)
   - [HOC for Feature Toggles](./ux-variations/03.HOC-feature-toggles.md)
@@ -49,7 +49,8 @@
   - ✔ [shouldComponentUpdate() check](./perf-tips/01.shouldComponentUpdate-check.md)
   - [Using Pure Components](./perf-tips/02.pure-component.md)
   - [Using reselect](./perf-tips/03.reselect.md)
-- Styling
+- S
+- tyling
   - [Introduction](./styling/README.md)
   - [Stateless UI Components](./styling/01.stateless-ui-components.md)
   - [Styles Module](./styling/02.styles-module.md)
