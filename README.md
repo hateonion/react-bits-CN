@@ -62,5 +62,5 @@
 - Gotchas
   - ✔ [Introduction](./gotchas/README.md)
   - ✔ [Pure render checks](./gotchas/01.pure-render-checks.md)
-  - [Synthetic Events](./gotchas/02.synthetic-events.md)
+  - ✔ [Synthetic Events](./gotchas/02.synthetic-events.md)
 - [Related Links](./READINGS.md)
