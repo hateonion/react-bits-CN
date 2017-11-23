@@ -38,12 +38,12 @@
   - ✔ [Spreading Props on DOM elements](./anti-patterns/07.spreading-props-dom.md)
 - Handling UX Variations
   - 👍 [Introduction](./ux-variations/README.md)
-  - [Composing UX Variations](./ux-variations/01.composing-variations.md)
-  - [Toggle UI Elements](./ux-variations/02.toggle-ui-elements.md)
-  - [HOC for Feature Toggles](./ux-variations/03.HOC-feature-toggles.md)
-  - [HOC props proxy](./ux-variations/04.HOC-props-proxy.md)
+  - ✔ [Composing UX Variations](./ux-variations/01.composing-variations.md)
+  - ✔ [Toggle UI Elements](./ux-variations/02.toggle-ui-elements.md)
+  - ✔ [HOC for Feature Toggles](./ux-variations/03.HOC-feature-toggles.md)
+  - ✔ [HOC props proxy](./ux-variations/04.HOC-props-proxy.md)
   - [Wrapper Components](./ux-variations/05.wrapper-components.md)
-  - [Display Order Variations](./ux-variations/06.display-order-variations.md)
+  - ✔ [Display Order Variations](./ux-variations/06.display-order-variations.md)
 - Perf Tips
   - [Introduction](./perf-tips/README.md)
   - ✔ [shouldComponentUpdate() check](./perf-tips/01.shouldComponentUpdate-check.md)
