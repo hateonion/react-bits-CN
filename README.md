@@ -45,7 +45,7 @@
   - [Wrapper Components](./ux-variations/05.wrapper-components.md)
   - ✔ [Display Order Variations](./ux-variations/06.display-order-variations.md)
 - Perf Tips
-  - [Introduction](./perf-tips/README.md)
+  - ✔ [Introduction](./perf-tips/README.md)
   - ✔ [shouldComponentUpdate() check](./perf-tips/01.shouldComponentUpdate-check.md)
   - ✔ [Using Pure Components](./perf-tips/02.pure-component.md)
   - [Using reselect](./perf-tips/03.reselect.md)

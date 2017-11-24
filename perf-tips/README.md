@@ -1,18 +1,18 @@
 # Perf Tips
 
-**Key Ideas**
+**基本准则**
 
-- Avoid Reconciliation with shouldComponentUpdate() check
+- 在`shouldComponentUpdate`中避免不必要的检查.
 
-- Use Immutable Data Structures
+- 使用不可变数据类型(Immutable).
 
-- Use Production Build
+- 编写针对产品环境的打包配置(Production Build).
 
-- Profile Components with Chrome Timeline
+- 通过Chrome Timeline来记录组件所耗费的资源.
 
-- Defer computationally expensive tasks in componentWillMount/componentDidMount by using setTimeout and/or requestAnimationFrame
+- 在`componentWillMount`或者`componentDidMount`里面通过`setTimeOut`或者`requestAnimationFram`来延迟执行那些需要大量计算的任务. 
 
-## Articles
+## 相关文章
 
 [Optimizing Performance: Docs](https://facebook.github.io/react/docs/optimizing-performance.html)
 
