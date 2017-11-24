@@ -42,7 +42,7 @@
   - ✔ [Toggle UI Elements](./ux-variations/02.toggle-ui-elements.md)
   - ✔ [HOC for Feature Toggles](./ux-variations/03.HOC-feature-toggles.md)
   - ✔ [HOC props proxy](./ux-variations/04.HOC-props-proxy.md)
-  - [Wrapper Components](./ux-variations/05.wrapper-components.md)
+  - ✔ [Wrapper Components](./ux-variations/05.wrapper-components.md)
   - ✔ [Display Order Variations](./ux-variations/06.display-order-variations.md)
 - Perf Tips
   - ✔ [Introduction](./perf-tips/README.md)
