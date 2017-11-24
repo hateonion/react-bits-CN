@@ -1,10 +1,11 @@
-# Styling in React
+# React中的样式
 
-Here we look into some ideas around using CSS in JS.
+在这一个章节中我们会提供一些CSS In JS的实践.
 
-If you are pondering over why to use CSS in JS, I highly recommend this [talk](http://blog.vjeux.com/2014/javascript/react-css-in-js-nationjs.html) by [Vjeux](https://twitter.com/Vjeux)
+如果你还不太明白为什么要CSS In Js, 作者vasan推荐你看一看下面的
+[talk](http://blog.vjeux.com/2014/javascript/react-css-in-js-nationjs.html) by [Vjeux](https://twitter.com/Vjeux)
 
-## Articles
+## 相关文章
 
 [Patterns for style composition in React](http://jxnblk.com/writing/posts/patterns-for-style-composition-in-react/)
 
