@@ -48,7 +48,7 @@
   - ✔ [Introduction](./perf-tips/README.md)
   - ✔ [shouldComponentUpdate() check](./perf-tips/01.shouldComponentUpdate-check.md)
   - ✔ [Using Pure Components](./perf-tips/02.pure-component.md)
-  - [Using reselect](./perf-tips/03.reselect.md)
+  - ✔ [Using reselect](./perf-tips/03.reselect.md)
 - Styling
   - ✔ [Introduction](./styling/README.md)
   - ✔ [Stateless UI Components](./styling/01.stateless-ui-components.md)
