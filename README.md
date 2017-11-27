@@ -27,7 +27,7 @@
   - ✔ [List Components](./patterns/32.list-components.md)
   - ✔ [Format Text via Component](./patterns/33.format-text-via-component.md)
   - ✔ [Share Tracking Logic](./patterns/34.share-tracking-logic.md)
-- Ant i-Patterns
+- Anti-Patterns
   - ✔ [Introduction](./anti-patterns/README.md)
   - ✔ [Props In Initial State](./anti-patterns/01.props-in-initial-state.md)
   - ✔ [findDOMNode()](./anti-patterns/02.findDOMNode.md)
