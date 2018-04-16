@@ -1,0 +1,1087 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Dependency Injection · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="21.context-wrapper.html" />
+    
+    
+    <link rel="prev" href="19.async-nature-of-setState.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    Design Patterns and Techniques
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="18.conditionals-in-jsx.html">
+            
+                <a href="18.conditionals-in-jsx.html">
+            
+                    
+                    Conditional in JSX
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="19.async-nature-of-setState.html">
+            
+                <a href="19.async-nature-of-setState.html">
+            
+                    
+                    Async Nature Of setState()
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.3" data-path="20.dependency-injection.html">
+            
+                <a href="20.dependency-injection.html">
+            
+                    
+                    Dependency Injection
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="21.context-wrapper.html">
+            
+                <a href="21.context-wrapper.html">
+            
+                    
+                    Context Wrapper
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="22.event-handlers.html">
+            
+                <a href="22.event-handlers.html">
+            
+                    
+                    Event Handlers
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="23.flux-pattern.html">
+            
+                <a href="23.flux-pattern.html">
+            
+                    
+                    Flux Pattern
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="24.one-way-data-flow.html">
+            
+                <a href="24.one-way-data-flow.html">
+            
+                    
+                    One Way Data Flow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="25.presentational-vs-container.html">
+            
+                <a href="25.presentational-vs-container.html">
+            
+                    
+                    Presentational vs Container
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="26.third-party-integration.html">
+            
+                <a href="26.third-party-integration.html">
+            
+                    
+                    Third Party Integration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="27.passing-function-to-setState.html">
+            
+                <a href="27.passing-function-to-setState.html">
+            
+                    
+                    Passing Function To setState()
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="28.decorators.html">
+            
+                <a href="28.decorators.html">
+            
+                    
+                    Decorators
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="29.feature-flags-using-redux.html">
+            
+                <a href="29.feature-flags-using-redux.html">
+            
+                    
+                    Feature Flags
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13" data-path="30.component-switch.html">
+            
+                <a href="30.component-switch.html">
+            
+                    
+                    Component Switch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.14" data-path="31.reaching-into-a-component.html">
+            
+                <a href="31.reaching-into-a-component.html">
+            
+                    
+                    Reaching Into A Component
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.15" data-path="32.list-components.html">
+            
+                <a href="32.list-components.html">
+            
+                    
+                    List Components
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.16" data-path="33.format-text-via-component.html">
+            
+                <a href="33.format-text-via-component.html">
+            
+                    
+                    Format Text via Component
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.17" data-path="34.share-tracking-logic.html">
+            
+                <a href="34.share-tracking-logic.html">
+            
+                    
+                    Share Tracking Logic
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Anti-Patterns
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../anti-patterns/">
+            
+                <a href="../anti-patterns/">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../anti-patterns/01.props-in-initial-state.html">
+            
+                <a href="../anti-patterns/01.props-in-initial-state.html">
+            
+                    
+                    Props In Initial State
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../anti-patterns/02.findDOMNode.html">
+            
+                <a href="../anti-patterns/02.findDOMNode.html">
+            
+                    
+                    findDOMNode()
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../anti-patterns/03.mixins.html">
+            
+                <a href="../anti-patterns/03.mixins.html">
+            
+                    
+                    Mixins
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../anti-patterns/04.setState-in-componentWillMount.html">
+            
+                <a href="../anti-patterns/04.setState-in-componentWillMount.html">
+            
+                    
+                    setState() in componentWillMount()
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../anti-patterns/05.mutating-state.html">
+            
+                <a href="../anti-patterns/05.mutating-state.html">
+            
+                    
+                    Mutating State
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../anti-patterns/06.using-indexes-as-key.html">
+            
+                <a href="../anti-patterns/06.using-indexes-as-key.html">
+            
+                    
+                    Using Indexes as Key
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../anti-patterns/07.spreading-props-dom.html">
+            
+                <a href="../anti-patterns/07.spreading-props-dom.html">
+            
+                    
+                    Spreading Props on DOM elements
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    Handling UX Variations
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../ux-variations/">
+            
+                <a href="../ux-variations/">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../ux-variations/01.composing-variations.html">
+            
+                <a href="../ux-variations/01.composing-variations.html">
+            
+                    
+                    Composing UX Variations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../ux-variations/02.toggle-ui-elements.html">
+            
+                <a href="../ux-variations/02.toggle-ui-elements.html">
+            
+                    
+                    Toggle UI Elements
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../ux-variations/03.HOC-feature-toggles.html">
+            
+                <a href="../ux-variations/03.HOC-feature-toggles.html">
+            
+                    
+                    HOC for Feature Toggles
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../ux-variations/04.HOC-props-proxy.html">
+            
+                <a href="../ux-variations/04.HOC-props-proxy.html">
+            
+                    
+                    HOC props proxy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../ux-variations/05.wrapper-components.html">
+            
+                <a href="../ux-variations/05.wrapper-components.html">
+            
+                    
+                    Wrapper Components
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../ux-variations/06.display-order-variations.html">
+            
+                <a href="../ux-variations/06.display-order-variations.html">
+            
+                    
+                    Display Order Variations
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    Perf Tips
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../perf-tips/">
+            
+                <a href="../perf-tips/">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../perf-tips/01.shouldComponentUpdate-check.html">
+            
+                <a href="../perf-tips/01.shouldComponentUpdate-check.html">
+            
+                    
+                    shouldComponentUpdate() check
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../perf-tips/02.pure-component.html">
+            
+                <a href="../perf-tips/02.pure-component.html">
+            
+                    
+                    Using Pure Components
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../perf-tips/03.reselect.html">
+            
+                <a href="../perf-tips/03.reselect.html">
+            
+                    
+                    Using reselect
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    Styling
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../styling/">
+            
+                <a href="../styling/">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../styling/01.stateless-ui-components.html">
+            
+                <a href="../styling/01.stateless-ui-components.html">
+            
+                    
+                    Stateless UI Components
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../styling/02.styles-module.html">
+            
+                <a href="../styling/02.styles-module.html">
+            
+                    
+                    Styles Module
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../styling/03.style-functions.html">
+            
+                <a href="../styling/03.style-functions.html">
+            
+                    
+                    Style Functions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../styling/04.using-npm-modules.html">
+            
+                <a href="../styling/04.using-npm-modules.html">
+            
+                    
+                    npm Modules
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../styling/05.base-component.html">
+            
+                <a href="../styling/05.base-component.html">
+            
+                    
+                    Base Component
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../styling/06.layout-component.html">
+            
+                <a href="../styling/06.layout-component.html">
+            
+                    
+                    Layout Component
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="../styling/07.typography-component.html">
+            
+                <a href="../styling/07.typography-component.html">
+            
+                    
+                    Typography Component
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.9" data-path="../styling/08.HOC-for-styling.html">
+            
+                <a href="../styling/08.HOC-for-styling.html">
+            
+                    
+                    HOC for Styling
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    Gotchas
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../gotchas/">
+            
+                <a href="../gotchas/">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../gotchas/01.pure-render-checks.html">
+            
+                <a href="../gotchas/01.pure-render-checks.html">
+            
+                    
+                    Pure render checks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../gotchas/02.synthetic-events.html">
+            
+                <a href="../gotchas/02.synthetic-events.html">
+            
+                    
+                    Synthetic Events
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../READINGS.html">
+            
+                <a href="../READINGS.html">
+            
+                    
+                    Related Links
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Dependency Injection</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x4F9D;&#x8D56;&#x6CE8;&#x5165;">&#x4F9D;&#x8D56;&#x6CE8;&#x5165;</h1>
+<p>&#x5728;React&#x4E2D;&#xFF0C;&#x60F3;&#x505A;<a href="https://www.youtube.com/watch?v=IKD2-MAkXyQ" target="_blank">&#x4F9D;&#x8D56;&#x6CE8;&#x5165;(Dependency Injection)</a>&#x5176;&#x5B9E;&#x76F8;&#x5F53;&#x7B80;&#x5355;&#x3002;&#x8BF7;&#x770B;&#x4E0B;&#x9762;&#x8FD9;&#x4E2A;&#x4F8B;&#x5B50;:</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// Title.jsx</span>
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">Title</span>(<span class="hljs-params">props</span>) </span>{
+  <span class="hljs-keyword">return</span> <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>{ props.title }<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span></span>;
+}
+</code></pre>
+<pre><code class="lang-javascript"><span class="hljs-comment">// Header.jsx</span>
+<span class="hljs-keyword">import</span> Title <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./Title.jsx&apos;</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">Header</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">return</span> (
+    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">header</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">Title</span> /&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">header</span>&gt;</span>
+  );
+}
+</span></code></pre>
+<pre><code class="lang-javascript"><span class="hljs-comment">// App.jsx</span>
+<span class="hljs-keyword">import</span> Header <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./Header.jsx&apos;</span>;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">App</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+  <span class="hljs-keyword">constructor</span>(props) {
+    <span class="hljs-keyword">super</span>(props);
+    <span class="hljs-keyword">this</span>.state = { title: <span class="hljs-string">&apos;React Dependency Injection&apos;</span> };
+  }
+  render() {
+    <span class="hljs-keyword">return</span> <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Header</span> /&gt;</span>;
+  }
+}
+</span></code></pre>
+<p>&#x8BD5;&#x60F3;&#xFF0C;&#x6211;&#x4EEC;&#x60F3;&#x628A;&quot;React Dependency Injection&quot;&#x8FD9;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x4F20;&#x5230;&#x6211;&#x4EEC;&#x7684;Title&#x7EC4;&#x4EF6;&#x91CC;&#x9762;&#x53BB;&#x3002;&#x6BD4;&#x8F83;&#x76F4;&#x89C2;&#x7684;&#x65B9;&#x6CD5;&#x662F;&#x628A;&#x8FD9;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x4F5C;&#x4E3A;props&#x4F20;&#x5165;Header&#x7EC4;&#x4EF6;&#xFF0C;&#x7136;&#x540E;Header&#x7EC4;&#x4EF6;&#x5C06;&#x8FD9;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x4F5C;&#x4E3A;props&#x4F20;&#x5165;Title&#x7EC4;&#x4EF6;&#x3002;
+&#x5728;&#x53EA;&#x6709;&#x4E09;&#x4E2A;&#x7EC4;&#x4EF6;&#x76F8;&#x4E92;&#x5D4C;&#x5957;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x4E0A;&#x9762;&#x7684;&#x8FD9;&#x79CD;&#x89E3;&#x51B3;&#x65B9;&#x5F0F;&#x4F3C;&#x4E4E;&#x80FD;&#x6EE1;&#x8DB3;&#x6211;&#x4EEC;&#x7684;&#x9700;&#x8981;&#x3002;&#x4F46;&#x662F;&#x8BBE;&#x60F3;&#x4E00;&#x4E0B;&#xFF0C;&#x968F;&#x7740;&#x7EC4;&#x4EF6;&#x6570;&#x91CF;&#x7684;&#x589E;&#x52A0;&#x4EE5;&#x53CA;&#x7EC4;&#x4EF6;&#x5D4C;&#x5957;&#x5C42;&#x6B21;&#x7684;&#x52A0;&#x6DF1;&#xFF0C;&#x8BB8;&#x591A;&#x7684;&#x7EC4;&#x4EF6;&#x90FD;&#x9700;&#x8981;&#x63A5;&#x6536;&#x8BE5;&#x7EC4;&#x4EF6;&#x672C;&#x8EAB;&#x5E76;&#x4E0D;&#x9700;&#x8981;&#x5173;&#x5FC3;&#x7684;props&#xFF0C;&#x7136;&#x540E;&#x4E14;&#x7B80;&#x5355;&#x5730;&#x4F20;&#x9012;&#x7ED9;&#x5B50;&#x7EC4;&#x4EF6;&#x3002;&#x76F4;&#x89C2;&#x4E0A;&#x6765;&#x770B;&#xFF0C;&#x4E0A;&#x9762;&#x7684;&#x8FD9;&#x79CD;&#x65B9;&#x6CD5;&#x5728;&#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x4F3C;&#x4E4E;&#x5C31;&#x4E0D;&#x592A;&#x9002;&#x7528;&#x4E86;&#x3002;</p>
+<p>&#x4E0D;&#x8FC7;&#x4E0D;&#x7528;&#x62C5;&#x5FC3;&#xFF0C;&#x4E8B;&#x5B9E;&#x4E0A;&#x6211;&#x4EEC;&#x8FD8;&#x6709;&#x5F88;&#x591A;&#x65B9;&#x6CD5;&#x80FD;&#x5B9E;&#x73B0;&#x4F9D;&#x8D56;&#x7684;&#x6CE8;&#x5165;&#xFF0C;&#x5176;&#x4E2D;&#x4E4B;&#x4E00;&#x5C31;&#x662F;&#x9AD8;&#x9636;&#x7EC4;&#x4EF6;(high-order component)&#x3002;</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// inject.jsx</span>
+<span class="hljs-keyword">var</span> title = <span class="hljs-string">&apos;React Dependency Injection&apos;</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">inject</span>(<span class="hljs-params">Component</span>) </span>{
+  <span class="hljs-keyword">return</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Injector</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    render() {
+      <span class="hljs-keyword">return</span> (
+        <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Component</span>
+          {<span class="hljs-attr">...this.state</span>}
+          {<span class="hljs-attr">...this.props</span>}
+          <span class="hljs-attr">title</span>=<span class="hljs-string">{</span> <span class="hljs-attr">title</span> }
+        /&gt;</span>
+      )
+    }
+  };
+}
+</span></code></pre>
+<pre><code class="lang-javascript"><span class="hljs-comment">// Title.jsx</span>
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">Title</span>(<span class="hljs-params">props</span>) </span>{
+  <span class="hljs-keyword">return</span> <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>{ props.title }<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span></span>;
+}
+</code></pre>
+<pre><code class="lang-javascript"><span class="hljs-comment">// Header.jsx</span>
+<span class="hljs-keyword">import</span> inject <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./inject.jsx&apos;</span>;
+<span class="hljs-keyword">import</span> Title <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./Title.jsx&apos;</span>;
+
+<span class="hljs-keyword">var</span> EnhancedTitle = inject(Title);
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">Header</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">return</span> (
+    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">header</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">EnhancedTitle</span> /&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">header</span>&gt;</span>
+  );
+}
+</span></code></pre>
+<p>&#x5728;&#x4E0A;&#x9762;&#x8FD9;&#x79CD;&#x5B9E;&#x73B0;&#x4E2D;&#xFF0C;title&#x8FD9;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x4F5C;&#x4E3A;&#x6211;&#x4EEC;&#x7684;&#x6570;&#x636E;&#x6CA1;&#x6709;&#x88AB;&#x6CE8;&#x5165;&#x5230;&#x6574;&#x4E2A;&#x7684;&#x7EC4;&#x4EF6;&#x6811;&#x4E2D;&#x3002;&#x76F8;&#x53CD;&#xFF0C;&#x6211;&#x4EEC;&#x7684;&#x6570;&#x636E;&#x53EA;&#x4F20;&#x9012;&#x7ED9;&#x4E86;&#x9700;&#x8981;&#x5173;&#x6CE8;&#x8FD9;&#x4E2A;&#x6570;&#x636E;&#x7684;&#x7EC4;&#x4EF6;&#x3002;
+&#x8FD9;&#x79CD;&#x5B9E;&#x73B0;&#x770B;&#x4E0A;&#x53BB;&#x6BD4;&#x4E0A;&#x9762;&#x4F18;&#x96C5;&#x4E86;&#x5F88;&#x591A;&#xFF0C;&#x4F46;&#x4E8B;&#x5B9E;&#x4E0A;&#x5E76;&#x6CA1;&#x6709;&#x5B8C;&#x5168;&#x89E3;&#x51B3;&#x6211;&#x4EEC;&#x7684;&#x95EE;&#x9898;&#x3002;
+&#x6211;&#x4EEC;&#x5C06;title&#x8FD9;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x901A;&#x8FC7;inject&#x8FD9;&#x4E2A;&#x9AD8;&#x9636;&#x7EC4;&#x4EF6;&#x6CE8;&#x5165;&#x4E86;&#x8FDB;&#x53BB;&#xFF0C;&#x4F46;&#x662F;&#x5982;&#x679C;&#x6211;&#x7684;title&#x5B57;&#x7B26;&#x4E32;&#x53EA;&#x80FD;&#x5728;&#x6211;&#x7684;Header&#x7EC4;&#x4EF6;&#x8FD9;&#x4E2A;&#x5C42;&#x7EA7;&#x83B7;&#x5F97;&#x5462;&#xFF1F;&#x90A3;&#x4E48;&#x662F;&#x4E0D;&#x662F;&#x610F;&#x5473;&#x7740;&#x6211;&#x8FD8;&#x9700;&#x8981;&#x518D;&#x4ECE;Header&#x7EC4;&#x4EF6;&#x4F20;&#x9012;&#x7ED9;inject&#x7EC4;&#x4EF6;&#x5462;&#xFF1F;</p>
+<p>&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x5B9E;&#x9645;&#x53EF;&#x80FD;&#x4F1A;&#x53D1;&#x751F;&#x7684;&#x95EE;&#x9898;&#xFF0C;&#x4E3A;&#x4E86;&#x89E3;&#x51B3;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#xFF0C;&#x63A5;&#x4E0B;&#x6765;&#x9700;&#x8981;&#x4ECB;&#x7ECD;&#x4E00;&#x4E0B;React&#x7684;Context API&#x3002;
+&#x5728;React&#x6846;&#x67B6;&#x4E2D;&#xFF0C;&#x5B58;&#x5728;&#x7740;context&#x8FD9;&#x6837;&#x4E00;&#x4E2A;&#x6982;&#x5FF5;&#x3002;context&#x6709;&#x70B9;&#x7C7B;&#x4F3C;&#x4E0E;&#x4E8B;&#x4EF6;&#x603B;&#x7EBF;(Event Bus)&#xFF0C;&#x662F;&#x4E00;&#x4E2A;&#x65E0;&#x8BBA;&#x5728;&#x54EA;&#x90FD;&#x53EF;&#x4EE5;&#x8BBF;&#x95EE;&#x7684;&#x5BF9;&#x8C61;&#x3002;&#x4E0D;&#x540C;&#x7684;&#x662F;&#xFF0C;&#x4F46;&#x662F;&#x5728;context&#x91CC;&#x9762;&#x7EF4;&#x6301;&#x7684;&#x5168;&#x90E8;&#x90FD;&#x662F;&#x6211;&#x4EEC;&#x7684;&#x6570;&#x636E;&#x800C;&#x975E;&#x4E8B;&#x4EF6;&#x3002;context&#x8D2F;&#x7A7F;&#x4E8E;&#x6574;&#x4E2A;&#x7EC4;&#x4EF6;&#x6811;&#x4E2D;&#xFF0C;&#x6240;&#x6709;&#x7684;&#x7EC4;&#x4EF6;&#x90FD;&#x53EF;&#x4EE5;&#x8BBF;&#x95EE;context&#x3002;</p>
+<p>&#x4F7F;&#x7528;&#x65B9;&#x6CD5;</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> context = { title: <span class="hljs-string">&apos;React in patterns&apos;</span> };
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">App</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+  getChildContext() {
+    <span class="hljs-keyword">return</span> context;
+  }
+  <span class="hljs-comment">// ...</span>
+}
+
+App.childContextTypes = {
+  title: PropTypes.string
+};
+</code></pre>
+<p>A place where we need data</p>
+<pre><code class="lang-javascript"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Inject</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+  render() {
+    <span class="hljs-keyword">var</span> title = <span class="hljs-keyword">this</span>.context.title;
+  <span class="hljs-comment">// ...</span>
+  }
+}
+Inject.contextTypes = {
+  title: PropTypes.string
+};
+</code></pre>
+<p>&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x662F;&#xFF0C;&#x5728;&#x6700;&#x65B0;&#x7684;React&#x5B98;&#x65B9;&#x6587;&#x6863;&#x4E2D;&#xFF0C;Context&#x5DF2;&#x7ECF;&#x4E0D;&#x592A;&#x88AB;&#x5B98;&#x65B9;&#x63A8;&#x8350;&#x4F7F;&#x7528;&#x4E86;&#x3002;<a href="https://reactjs.org/docs/context.html#why-not-to-use-context" target="_blank">Why Not To Use Context</a></p>
+<h3 id="&#x53C2;&#x8003;&#x8D44;&#x6599;">&#x53C2;&#x8003;&#x8D44;&#x6599;:</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=IKD2-MAkXyQ" target="_blank">What is Dependency Injection?</a></li>
+<li><a href="https://www.youtube.com/watch?v=jXhdOTw1q5Q" target="_blank">The Basics of Dependency Injection</a></li>
+<li><a href="http://krasimirtsonev.com/blog/article/Dependency-injection-in-JavaScript" target="_blank">Dependency injection in JavaScript</a></li>
+<li><a href="https://github.com/krasimir/react-in-patterns/tree/master/patterns/dependency-injection" target="_blank">DI In React</a></li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="19.async-nature-of-setState.html" class="navigation navigation-prev " aria-label="Previous page: Async Nature Of setState()">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="21.context-wrapper.html" class="navigation navigation-next " aria-label="Next page: Context Wrapper">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Dependency Injection","level":"1.2.3","depth":2,"next":{"title":"Context Wrapper","level":"1.2.4","depth":2,"path":"patterns/21.context-wrapper.md","ref":"./patterns/21.context-wrapper.md","articles":[]},"previous":{"title":"Async Nature Of setState()","level":"1.2.2","depth":2,"path":"patterns/19.async-nature-of-setState.md","ref":"./patterns/19.async-nature-of-setState.md","articles":[]},"dir":"ltr"},"config":{"gitbook":">3.0.0","theme":"default","variables":{},"plugins":["edit-link"],"pluginsConfig":{"edit-link":{"label":"Edit This Page","base":"https://github.com/vasanthk/react-bits/blob/master"},"github":{"url":"https://github.com/vasanthk/react-bits/"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"patterns/20.dependency-injection.md","mtime":"2017-11-27T12:35:07.208Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-11-29T14:57:10.601Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

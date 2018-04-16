@@ -1,0 +1,1122 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Async Nature Of setState() · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="20.dependency-injection.html" />
+    
+    
+    <link rel="prev" href="18.conditionals-in-jsx.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    Design Patterns and Techniques
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="18.conditionals-in-jsx.html">
+            
+                <a href="18.conditionals-in-jsx.html">
+            
+                    
+                    Conditional in JSX
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.2" data-path="19.async-nature-of-setState.html">
+            
+                <a href="19.async-nature-of-setState.html">
+            
+                    
+                    Async Nature Of setState()
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="20.dependency-injection.html">
+            
+                <a href="20.dependency-injection.html">
+            
+                    
+                    Dependency Injection
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="21.context-wrapper.html">
+            
+                <a href="21.context-wrapper.html">
+            
+                    
+                    Context Wrapper
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="22.event-handlers.html">
+            
+                <a href="22.event-handlers.html">
+            
+                    
+                    Event Handlers
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="23.flux-pattern.html">
+            
+                <a href="23.flux-pattern.html">
+            
+                    
+                    Flux Pattern
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="24.one-way-data-flow.html">
+            
+                <a href="24.one-way-data-flow.html">
+            
+                    
+                    One Way Data Flow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="25.presentational-vs-container.html">
+            
+                <a href="25.presentational-vs-container.html">
+            
+                    
+                    Presentational vs Container
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="26.third-party-integration.html">
+            
+                <a href="26.third-party-integration.html">
+            
+                    
+                    Third Party Integration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="27.passing-function-to-setState.html">
+            
+                <a href="27.passing-function-to-setState.html">
+            
+                    
+                    Passing Function To setState()
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="28.decorators.html">
+            
+                <a href="28.decorators.html">
+            
+                    
+                    Decorators
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="29.feature-flags-using-redux.html">
+            
+                <a href="29.feature-flags-using-redux.html">
+            
+                    
+                    Feature Flags
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13" data-path="30.component-switch.html">
+            
+                <a href="30.component-switch.html">
+            
+                    
+                    Component Switch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.14" data-path="31.reaching-into-a-component.html">
+            
+                <a href="31.reaching-into-a-component.html">
+            
+                    
+                    Reaching Into A Component
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.15" data-path="32.list-components.html">
+            
+                <a href="32.list-components.html">
+            
+                    
+                    List Components
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.16" data-path="33.format-text-via-component.html">
+            
+                <a href="33.format-text-via-component.html">
+            
+                    
+                    Format Text via Component
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.17" data-path="34.share-tracking-logic.html">
+            
+                <a href="34.share-tracking-logic.html">
+            
+                    
+                    Share Tracking Logic
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Anti-Patterns
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../anti-patterns/">
+            
+                <a href="../anti-patterns/">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../anti-patterns/01.props-in-initial-state.html">
+            
+                <a href="../anti-patterns/01.props-in-initial-state.html">
+            
+                    
+                    Props In Initial State
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../anti-patterns/02.findDOMNode.html">
+            
+                <a href="../anti-patterns/02.findDOMNode.html">
+            
+                    
+                    findDOMNode()
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../anti-patterns/03.mixins.html">
+            
+                <a href="../anti-patterns/03.mixins.html">
+            
+                    
+                    Mixins
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../anti-patterns/04.setState-in-componentWillMount.html">
+            
+                <a href="../anti-patterns/04.setState-in-componentWillMount.html">
+            
+                    
+                    setState() in componentWillMount()
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../anti-patterns/05.mutating-state.html">
+            
+                <a href="../anti-patterns/05.mutating-state.html">
+            
+                    
+                    Mutating State
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../anti-patterns/06.using-indexes-as-key.html">
+            
+                <a href="../anti-patterns/06.using-indexes-as-key.html">
+            
+                    
+                    Using Indexes as Key
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../anti-patterns/07.spreading-props-dom.html">
+            
+                <a href="../anti-patterns/07.spreading-props-dom.html">
+            
+                    
+                    Spreading Props on DOM elements
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    Handling UX Variations
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../ux-variations/">
+            
+                <a href="../ux-variations/">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../ux-variations/01.composing-variations.html">
+            
+                <a href="../ux-variations/01.composing-variations.html">
+            
+                    
+                    Composing UX Variations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../ux-variations/02.toggle-ui-elements.html">
+            
+                <a href="../ux-variations/02.toggle-ui-elements.html">
+            
+                    
+                    Toggle UI Elements
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../ux-variations/03.HOC-feature-toggles.html">
+            
+                <a href="../ux-variations/03.HOC-feature-toggles.html">
+            
+                    
+                    HOC for Feature Toggles
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../ux-variations/04.HOC-props-proxy.html">
+            
+                <a href="../ux-variations/04.HOC-props-proxy.html">
+            
+                    
+                    HOC props proxy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../ux-variations/05.wrapper-components.html">
+            
+                <a href="../ux-variations/05.wrapper-components.html">
+            
+                    
+                    Wrapper Components
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../ux-variations/06.display-order-variations.html">
+            
+                <a href="../ux-variations/06.display-order-variations.html">
+            
+                    
+                    Display Order Variations
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    Perf Tips
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../perf-tips/">
+            
+                <a href="../perf-tips/">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../perf-tips/01.shouldComponentUpdate-check.html">
+            
+                <a href="../perf-tips/01.shouldComponentUpdate-check.html">
+            
+                    
+                    shouldComponentUpdate() check
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../perf-tips/02.pure-component.html">
+            
+                <a href="../perf-tips/02.pure-component.html">
+            
+                    
+                    Using Pure Components
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../perf-tips/03.reselect.html">
+            
+                <a href="../perf-tips/03.reselect.html">
+            
+                    
+                    Using reselect
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    Styling
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../styling/">
+            
+                <a href="../styling/">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../styling/01.stateless-ui-components.html">
+            
+                <a href="../styling/01.stateless-ui-components.html">
+            
+                    
+                    Stateless UI Components
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../styling/02.styles-module.html">
+            
+                <a href="../styling/02.styles-module.html">
+            
+                    
+                    Styles Module
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../styling/03.style-functions.html">
+            
+                <a href="../styling/03.style-functions.html">
+            
+                    
+                    Style Functions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../styling/04.using-npm-modules.html">
+            
+                <a href="../styling/04.using-npm-modules.html">
+            
+                    
+                    npm Modules
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../styling/05.base-component.html">
+            
+                <a href="../styling/05.base-component.html">
+            
+                    
+                    Base Component
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../styling/06.layout-component.html">
+            
+                <a href="../styling/06.layout-component.html">
+            
+                    
+                    Layout Component
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="../styling/07.typography-component.html">
+            
+                <a href="../styling/07.typography-component.html">
+            
+                    
+                    Typography Component
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.9" data-path="../styling/08.HOC-for-styling.html">
+            
+                <a href="../styling/08.HOC-for-styling.html">
+            
+                    
+                    HOC for Styling
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    Gotchas
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../gotchas/">
+            
+                <a href="../gotchas/">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../gotchas/01.pure-render-checks.html">
+            
+                <a href="../gotchas/01.pure-render-checks.html">
+            
+                    
+                    Pure render checks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../gotchas/02.synthetic-events.html">
+            
+                <a href="../gotchas/02.synthetic-events.html">
+            
+                    
+                    Synthetic Events
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../READINGS.html">
+            
+                <a href="../READINGS.html">
+            
+                    
+                    Related Links
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Async Nature Of setState()</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="setstate&#x51FD;&#x6570;&#x7684;&#x5F02;&#x6B65;&#x6027;">setState&#x51FD;&#x6570;&#x7684;&#x5F02;&#x6B65;&#x6027;</h1>
+<h2 id="&#x7B80;&#x8FF0;">&#x7B80;&#x8FF0;</h2>
+<p>&#x5728;&#x67D0;&#x4E9B;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;React&#x6846;&#x67B6;&#x51FA;&#x4E8E;&#x6027;&#x80FD;&#x4F18;&#x5316;&#x8003;&#x8651;&#xFF0C;&#x53EF;&#x80FD;&#x4F1A;&#x5C06;&#x591A;&#x6B21;state&#x66F4;&#x65B0;&#x5408;&#x5E76;&#x6210;&#x4E00;&#x6B21;&#x66F4;&#x65B0;&#x3002;&#x6B63;&#x56E0;&#x4E3A;&#x5982;&#x6B64;&#xFF0C;setState&#x5B9E;&#x9645;&#x4E0A;&#x662F;&#x4E00;&#x4E2A;&#x5F02;&#x6B65;&#x7684;&#x51FD;&#x6570;&#x3002;
+&#x4F46;&#x662F;&#xFF0C;&#x6709;&#x4E00;&#x4E9B;&#x884C;&#x4E3A;&#x4E5F;&#x4F1A;&#x963B;&#x6B62;React&#x6846;&#x67B6;&#x672C;&#x8EAB;&#x5BF9;&#x4E8E;&#x591A;&#x6B21;state&#x66F4;&#x65B0;&#x7684;&#x5408;&#x5E76;&#xFF0C;&#x4ECE;&#x800C;&#x8BA9;state&#x7684;&#x66F4;&#x65B0;&#x53D8;&#x5F97;&#x540C;&#x6B65;&#x5316;&#x3002;
+&#x6BD4;&#x5982;: eventListeners, Ajax, setTimeout &#x7B49;&#x7B49;&#x3002;</p>
+<h3 id="&#x8BE6;&#x89E3;">&#x8BE6;&#x89E3;</h3>
+<p>&#x5F53;setState() &#x51FD;&#x6570;&#x6267;&#x884C;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x51FD;&#x6570;&#x4F1A;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x6682;&#x6001;&#x7684;state&#x4F5C;&#x4E3A;&#x8FC7;&#x6E21;state&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x7ACB;&#x5373;&#x4FEE;&#x6539;this.state&#x3002;
+&#x5982;&#x679C;&#x5728;&#x8C03;&#x7528;setState()&#x51FD;&#x6570;&#x4E4B;&#x540E;&#x5C1D;&#x8BD5;&#x53BB;&#x8BBF;&#x95EE;this.state&#xFF0C;&#x4F60;&#x5F97;&#x5230;&#x7684;&#x53EF;&#x80FD;&#x8FD8;&#x662F;setState()&#x51FD;&#x6570;&#x6267;&#x884C;&#x4E4B;&#x524D;&#x7684;&#x7ED3;&#x679C;&#x3002;
+&#x5728;&#x4F7F;&#x7528;setState()&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x770B;&#x8D77;&#x6765;&#x540C;&#x6B65;&#x6267;&#x884C;&#x7684;&#x4EE3;&#x7801;&#x5176;&#x5B9E;&#x6267;&#x884C;&#x987A;&#x5E8F;&#x662F;&#x5F97;&#x4E0D;&#x5230;&#x4FDD;&#x8BC1;&#x7684;&#x3002;&#x539F;&#x56E0;&#x4E0A;&#x9762;&#x4E5F;&#x63D0;&#x5230;&#x8FC7;&#xFF0C;React&#x53EF;&#x80FD;&#x4F1A;&#x5C06;&#x591A;&#x6B21;state&#x66F4;&#x65B0;&#x5408;&#x5E76;&#x6210;&#x4E00;&#x6B21;&#x66F4;&#x65B0;&#x6765;&#x4F18;&#x5316;&#x6027;&#x80FD;&#x3002;</p>
+<p>&#x8FD0;&#x884C;&#x4E0B;&#x9762;&#x8FD9;&#x6BB5;&#x4EE3;&#x7801;&#xFF0C;&#x4F60;&#x4F1A;&#x53D1;&#x73B0;&#x5F53;&#x548C;addEventListener, setTimeout &#x51FD;&#x6570;&#x6216;&#x8005;&#x53D1;&#x51FA;AJAX call&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x8C03;&#x7528;setState, state&#x4F1A;&#x53D1;&#x751F;&#x6539;&#x53D8;&#x3002;&#x5E76;&#x4E14;render&#x51FD;&#x6570;&#x4F1A;&#x5728;setState()&#x51FD;&#x6570;&#x88AB;&#x89E6;&#x53D1;&#x4E4B;&#x540E;&#x9A6C;&#x4E0A;&#x88AB;&#x8C03;&#x7528;&#x3002;&#x90A3;&#x4E48;&#x5230;&#x5E95;&#x53D1;&#x751F;&#x4E86;&#x4EC0;&#x4E48;&#x5462;&#xFF1F;&#x4E8B;&#x5B9E;&#x4E0A;&#xFF0C;&#x7C7B;&#x4F3C;setTimeout()&#x51FD;&#x6570;&#x6216;&#x8005;&#x53D1;&#x51FA;ajax call&#x7684;fetch&#x51FD;&#x6570;&#x5C5E;&#x4E8E;&#x8C03;&#x7528;&#x6D4F;&#x89C8;&#x5668;&#x5C42;&#x9762;&#x7684;API&#xFF0C;&#x8FD9;&#x4E9B;&#x51FD;&#x6570;&#x7684;&#x6267;&#x884C;&#x5E76;&#x4E0D;&#x5B58;&#x5728;&#x4E0E;React&#x7684;&#x4E0A;&#x4E0B;&#x6587;&#x4E2D;&#xFF0C;&#x6240;&#x4EE5;React&#x5E76;&#x4E0D;&#x80FD;&#x591F;&#x50CF;&#x63A7;&#x5236;&#x5176;&#x4ED6;&#x5B58;&#x5728;&#x4E0E;&#x5176;&#x4E0A;&#x4E0B;&#x6587;&#x4E2D;&#x7684;&#x51FD;&#x6570;&#x4E00;&#x6837;&#xFF0C;&#x5C06;&#x591A;&#x6B21;state&#x66F4;&#x65B0;&#x5408;&#x5E76;&#x6210;&#x4E00;&#x6B21;&#x3002;</p>
+<p>&#x5728;&#x4E0A;&#x9762;&#x8FD9;&#x4E9B;&#x4F8B;&#x5B50;&#x4E2D;&#xFF0C;React&#x6846;&#x67B6;&#x4E4B;&#x6240;&#x4EE5;&#x5728;&#x9009;&#x62E9;&#x5728;&#x8C03;&#x7528;setState&#x51FD;&#x6570;&#x4E4B;&#x540E;&#x7ACB;&#x5373;&#x66F4;&#x65B0;state&#x800C;&#x4E0D;&#x662F;&#x91C7;&#x7528;&#x6846;&#x67B6;&#x9ED8;&#x8BA4;&#x7684;&#x65B9;&#x5F0F;&#xFF0C;&#x5373;&#x5408;&#x5E76;&#x591A;&#x6B21;state&#x66F4;&#x65B0;&#x4E3A;&#x4E00;&#x6B21;&#x66F4;&#x65B0;&#xFF0C;&#x662F;&#x56E0;&#x4E3A;&#x8FD9;&#x4E9B;&#x51FD;&#x6570;&#x8C03;&#x7528;(fetch,setTimeout&#x7B49;&#x6D4F;&#x89C8;&#x5668;&#x5C42;&#x9762;&#x7684;API&#x8C03;&#x7528;)&#x5E76;&#x4E0D;&#x5904;&#x4E8E;React&#x6846;&#x67B6;&#x7684;&#x4E0A;&#x4E0B;&#x6587;&#x4E2D;&#xFF0C;React&#x6CA1;&#x6709;&#x529E;&#x6CD5;&#x5BF9;&#x5176;&#x8FDB;&#x884C;&#x63A7;&#x5236;&#x3002;React&#x5728;&#x6B64;&#x65F6;&#x91C7;&#x7528;&#x7684;&#x7B56;&#x7565;&#x5C31;&#x662F;&#x53CA;&#x65F6;&#x66F4;&#x65B0;&#xFF0C;&#x786E;&#x4FDD;&#x5728;&#x8FD9;&#x4E9B;&#x51FD;&#x6570;&#x6267;&#x884C;&#x4E4B;&#x540E;&#x7684;&#x5176;&#x4ED6;&#x4EE3;&#x7801;&#x80FD;&#x62FF;&#x5230;&#x6B63;&#x786E;&#x7684;&#x6570;&#x636E;&#xFF08;&#x5373;&#x66F4;&#x65B0;&#x8FC7;&#x7684;state)&#x3002;</p>
+<pre><code class="lang-javascript"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TestComponent</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+
+  <span class="hljs-keyword">constructor</span>(props) {
+    <span class="hljs-keyword">super</span>(props);
+    <span class="hljs-keyword">this</span>.state = {
+      dollars: <span class="hljs-number">10</span>
+    }
+    <span class="hljs-keyword">this</span>.onMouseLeaveHandler = <span class="hljs-keyword">this</span>.onMouseLeaveHandler.bind(<span class="hljs-keyword">this</span>);
+    <span class="hljs-keyword">this</span>.onTimeoutHandler = <span class="hljs-keyword">this</span>.onTimeoutHandler.bind(<span class="hljs-keyword">this</span>);
+    <span class="hljs-keyword">this</span>.onAjaxCallback = <span class="hljs-keyword">this</span>.onAjaxCallback.bind(<span class="hljs-keyword">this</span>);
+    <span class="hljs-keyword">this</span>.onClickHandler = <span class="hljs-keyword">this</span>.onClickHandler.bind(<span class="hljs-keyword">this</span>);
+  }
+
+  componentDidMount() {
+    <span class="hljs-comment">// Add custom event via `addEventListener`</span>
+    <span class="hljs-comment">//</span>
+    <span class="hljs-comment">// The list of supported React events does include `mouseleave`</span>
+    <span class="hljs-comment">// via `onMouseLeave` prop</span>
+    <span class="hljs-comment">//</span>
+    <span class="hljs-comment">// However, we are not adding the event the `React way` - this will have</span>
+    <span class="hljs-comment">// effects on how state mutates</span>
+    <span class="hljs-comment">//</span>
+    <span class="hljs-comment">// Check the list here - https://facebook.github.io/react/docs/events.html</span>
+    <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;testButton&apos;</span>).addEventListener(<span class="hljs-string">&apos;mouseleave&apos;</span>, <span class="hljs-keyword">this</span>.onMouseLeaveHandler);
+
+    <span class="hljs-comment">// Add JS timeout</span>
+    <span class="hljs-comment">//</span>
+    <span class="hljs-comment">// Again,outside React `world` - this will also have effects on how state</span>
+    <span class="hljs-comment">// mutates</span>
+    setTimeout(<span class="hljs-keyword">this</span>.onTimeoutHandler, <span class="hljs-number">10000</span>);
+
+    <span class="hljs-comment">// Make AJAX request</span>
+    fetch(<span class="hljs-string">&apos;https://api.github.com/users&apos;</span>)
+      .then(<span class="hljs-keyword">this</span>.onAjaxCallback);
+  }
+
+  onClickHandler = () =&gt; {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;State before (_onClickHandler): &apos;</span> + <span class="hljs-built_in">JSON</span>.stringify(<span class="hljs-keyword">this</span>.state));
+    <span class="hljs-keyword">this</span>.setState({
+      dollars: <span class="hljs-keyword">this</span>.state.dollars + <span class="hljs-number">10</span>
+    });
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;State after (_onClickHandler): &apos;</span> + <span class="hljs-built_in">JSON</span>.stringify(<span class="hljs-keyword">this</span>.state));
+  }
+
+  onMouseLeaveHandler = () =&gt; {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;State before (mouseleave): &apos;</span> + <span class="hljs-built_in">JSON</span>.stringify(<span class="hljs-keyword">this</span>.state));
+    <span class="hljs-keyword">this</span>.setState({
+      dollars: <span class="hljs-keyword">this</span>.state.dollars + <span class="hljs-number">20</span>
+    });
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;State after (mouseleave): &apos;</span> + <span class="hljs-built_in">JSON</span>.stringify(<span class="hljs-keyword">this</span>.state));
+  }
+
+  onTimeoutHandler = () =&gt; {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;State before (timeout): &apos;</span> + <span class="hljs-built_in">JSON</span>.stringify(<span class="hljs-keyword">this</span>.state));
+    <span class="hljs-keyword">this</span>.setState({
+      dollars: <span class="hljs-keyword">this</span>.state.dollars + <span class="hljs-number">30</span>
+    });
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;State after (timeout): &apos;</span> + <span class="hljs-built_in">JSON</span>.stringify(<span class="hljs-keyword">this</span>.state));
+  }
+
+  onAjaxCallback = (err, res) =&gt; {
+    <span class="hljs-keyword">if</span> (err) {
+      <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Error in AJAX call: &apos;</span> + <span class="hljs-built_in">JSON</span>.stringify(err));
+      <span class="hljs-keyword">return</span>;
+    }
+
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;State before (AJAX call): &apos;</span> + <span class="hljs-built_in">JSON</span>.stringify(<span class="hljs-keyword">this</span>.state));
+    <span class="hljs-keyword">this</span>.setState({
+      dollars: <span class="hljs-keyword">this</span>.state.dollars + <span class="hljs-number">40</span>
+    });
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;State after (AJAX call): &apos;</span> + <span class="hljs-built_in">JSON</span>.stringify(<span class="hljs-keyword">this</span>.state));
+  }
+
+  render() {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;State in render: &apos;</span> + <span class="hljs-built_in">JSON</span>.stringify(<span class="hljs-keyword">this</span>.state));
+
+    <span class="hljs-keyword">return</span> (
+       <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">button</span>
+         <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;testButton&quot;</span>
+         <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.onClickHandler}</span>&gt;</span>
+         &apos;Click me&apos;
+      <span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span></span>
+    );
+  }
+}
+
+ReactDOM.render(
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">TestComponent</span> /&gt;</span>,
+  document.getElementById(&apos;app&apos;)
+);
+</span></code></pre>
+<h3 id="&#x89E3;&#x51B3;setstate&#x51FD;&#x6570;&#x5F02;&#x6B65;&#x7684;&#x529E;&#x6CD5;">&#x89E3;&#x51B3;setState&#x51FD;&#x6570;&#x5F02;&#x6B65;&#x7684;&#x529E;&#x6CD5;?</h3>
+<p>&#x6839;&#x636E;React&#x5B98;&#x65B9;&#x6587;&#x6863;&#xFF0C;setState&#x51FD;&#x6570;&#x5B9E;&#x9645;&#x4E0A;&#x63A5;&#x6536;&#x4E24;&#x4E2A;&#x53C2;&#x6570;&#xFF0C;&#x5176;&#x4E2D;&#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;&#x7C7B;&#x578B;&#x662F;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#xFF0C;&#x4F5C;&#x4E3A;setState&#x51FD;&#x6570;&#x6267;&#x884C;&#x540E;&#x7684;&#x56DE;&#x8C03;&#x3002;&#x901A;&#x8FC7;&#x4F20;&#x5165;&#x56DE;&#x8C03;&#x51FD;&#x6570;&#x7684;&#x65B9;&#x5F0F;&#xFF0C;React&#x53EF;&#x4EE5;&#x4FDD;&#x8BC1;&#x4F20;&#x5165;&#x7684;&#x56DE;&#x8C03;&#x51FD;&#x6570;&#x4E00;&#x5B9A;&#x662F;&#x5728;setState&#x6210;&#x529F;&#x66F4;&#x65B0;this.state&#x4E4B;&#x540E;&#x518D;&#x6267;&#x884C;&#x3002;</p>
+<h4 id="&#x4F8B;&#x5B50;">&#x4F8B;&#x5B50;</h4>
+<pre><code class="lang-javascript">_onClickHandler: <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">_onClickHandler</span>(<span class="hljs-params"></span>) </span>{
+   <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;State before (_onClickHandler): &apos;</span> + <span class="hljs-built_in">JSON</span>.stringify(<span class="hljs-keyword">this</span>.state));
+   <span class="hljs-keyword">this</span>.setState({
+   dollars: <span class="hljs-keyword">this</span>.state.dollars + <span class="hljs-number">10</span>
+   }, () =&gt; {
+   <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Here state will always be updated to latest version!&apos;</span>);
+   <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;State after (_onClickHandler): &apos;</span> + <span class="hljs-built_in">JSON</span>.stringify(<span class="hljs-keyword">this</span>.state));
+   });
+}
+</code></pre>
+<h4 id="&#x66F4;&#x591A;&#x5173;&#x4E8E;setstate&#x7684;&#x5C0F;&#x77E5;&#x8BC6;">&#x66F4;&#x591A;&#x5173;&#x4E8E;setState&#x7684;&#x5C0F;&#x77E5;&#x8BC6;</h4>
+<p>&#x5176;&#x5B9E;setState&#x4F5C;&#x4E3A;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#xFF0C;&#x672C;&#x8EAB;&#x662F;&#x540C;&#x6B65;&#x7684;&#x3002;&#x53EA;&#x662F;&#x56E0;&#x4E3A;&#x5728;setState&#x7684;&#x5185;&#x90E8;&#x5B9E;&#x73B0;&#x4E2D;&#xFF0C;&#x4F7F;&#x7528;&#x4E86;React updater&#x7684;enqueueState &#x6216;&#x8005; enqueueCallback&#x65B9;&#x6CD5;&#xFF0C;&#x624D;&#x9020;&#x6210;&#x4E86;&#x5F02;&#x6B65;&#x3002;</p>
+<p>&#x4E0B;&#x9762;&#x8FD9;&#x6BB5;&#x662F;React&#x6E90;&#x7801;&#x4E2D;setState&#x7684;&#x5B9E;&#x73B0;:</p>
+<pre><code class="lang-javascript">ReactComponent.prototype.setState = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">partialState, callback</span>) </span>{
+  invariant(
+    <span class="hljs-keyword">typeof</span> partialState === <span class="hljs-string">&apos;object&apos;</span> ||
+    <span class="hljs-keyword">typeof</span> partialState === <span class="hljs-string">&apos;function&apos;</span> ||
+    partialState == <span class="hljs-literal">null</span>,
+    <span class="hljs-string">&apos;setState(...): takes an object of state variables to update or a &apos;</span> +
+    <span class="hljs-string">&apos;function which returns an object of state variables.&apos;</span>
+  );
+  <span class="hljs-keyword">this</span>.updater.enqueueSetState(<span class="hljs-keyword">this</span>, partialState);
+  <span class="hljs-keyword">if</span> (callback) {
+    <span class="hljs-keyword">this</span>.updater.enqueueCallback(<span class="hljs-keyword">this</span>, callback, <span class="hljs-string">&apos;setState&apos;</span>);
+  }
+};
+</code></pre>
+<p>&#x800C;updater&#x7684;&#x8FD9;&#x4E24;&#x4E2A;&#x65B9;&#x6CD5;&#xFF0C;&#x53C8;&#x548C;React&#x5E95;&#x5C42;&#x7684;Virtual Dom(&#x865A;&#x62DF;DOM&#x6811;)&#x7684;diff&#x7B97;&#x6CD5;&#x6709;&#x7D27;&#x5BC6;&#x7684;&#x5173;&#x7CFB;&#xFF0C;&#x6240;&#x4EE5;&#x771F;&#x6B63;&#x51B3;&#x5B9A;&#x540C;&#x6B65;&#x8FD8;&#x662F;&#x5F02;&#x6B65;&#x7684;&#x5176;&#x5B9E;&#x662F;Virtual DOM&#x7684;diff&#x7B97;&#x6CD5;&#x3002;</p>
+<h2 id="&#x53C2;&#x8003;&#x8D44;&#x6599;">&#x53C2;&#x8003;&#x8D44;&#x6599;:</h2>
+<ul>
+<li><a href="https://medium.com/@wereHamster/beware-react-setstate-is-asynchronous-ce87ef1a9cf3#.jhdhncws3" target="_blank">https://medium.com/@wereHamster/beware-react-setstate-is-asynchronous-ce87ef1a9cf3#.jhdhncws3</a></li>
+<li><a href="https://www.bennadel.com/blog/2893-setstate-state-mutation-operation-may-be-synchronous-in-reactjs.htm" target="_blank">https://www.bennadel.com/blog/2893-setstate-state-mutation-operation-may-be-synchronous-in-reactjs.htm</a></li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="18.conditionals-in-jsx.html" class="navigation navigation-prev " aria-label="Previous page: Conditional in JSX">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="20.dependency-injection.html" class="navigation navigation-next " aria-label="Next page: Dependency Injection">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Async Nature Of setState()","level":"1.2.2","depth":2,"next":{"title":"Dependency Injection","level":"1.2.3","depth":2,"path":"patterns/20.dependency-injection.md","ref":"./patterns/20.dependency-injection.md","articles":[]},"previous":{"title":"Conditional in JSX","level":"1.2.1","depth":2,"path":"patterns/18.conditionals-in-jsx.md","ref":"./patterns/18.conditionals-in-jsx.md","articles":[]},"dir":"ltr"},"config":{"gitbook":">3.0.0","theme":"default","variables":{},"plugins":["edit-link"],"pluginsConfig":{"edit-link":{"label":"Edit This Page","base":"https://github.com/vasanthk/react-bits/blob/master"},"github":{"url":"https://github.com/vasanthk/react-bits/"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"patterns/19.async-nature-of-setState.md","mtime":"2017-11-10T13:13:41.385Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-11-29T14:57:10.601Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

@@ -1,0 +1,1013 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Passing Function To setState() · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="28.decorators.html" />
+    
+    
+    <link rel="prev" href="26.third-party-integration.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    Design Patterns and Techniques
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="18.conditionals-in-jsx.html">
+            
+                <a href="18.conditionals-in-jsx.html">
+            
+                    
+                    Conditional in JSX
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="19.async-nature-of-setState.html">
+            
+                <a href="19.async-nature-of-setState.html">
+            
+                    
+                    Async Nature Of setState()
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="20.dependency-injection.html">
+            
+                <a href="20.dependency-injection.html">
+            
+                    
+                    Dependency Injection
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="21.context-wrapper.html">
+            
+                <a href="21.context-wrapper.html">
+            
+                    
+                    Context Wrapper
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="22.event-handlers.html">
+            
+                <a href="22.event-handlers.html">
+            
+                    
+                    Event Handlers
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="23.flux-pattern.html">
+            
+                <a href="23.flux-pattern.html">
+            
+                    
+                    Flux Pattern
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="24.one-way-data-flow.html">
+            
+                <a href="24.one-way-data-flow.html">
+            
+                    
+                    One Way Data Flow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="25.presentational-vs-container.html">
+            
+                <a href="25.presentational-vs-container.html">
+            
+                    
+                    Presentational vs Container
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="26.third-party-integration.html">
+            
+                <a href="26.third-party-integration.html">
+            
+                    
+                    Third Party Integration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.10" data-path="27.passing-function-to-setState.html">
+            
+                <a href="27.passing-function-to-setState.html">
+            
+                    
+                    Passing Function To setState()
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="28.decorators.html">
+            
+                <a href="28.decorators.html">
+            
+                    
+                    Decorators
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="29.feature-flags-using-redux.html">
+            
+                <a href="29.feature-flags-using-redux.html">
+            
+                    
+                    Feature Flags
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13" data-path="30.component-switch.html">
+            
+                <a href="30.component-switch.html">
+            
+                    
+                    Component Switch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.14" data-path="31.reaching-into-a-component.html">
+            
+                <a href="31.reaching-into-a-component.html">
+            
+                    
+                    Reaching Into A Component
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.15" data-path="32.list-components.html">
+            
+                <a href="32.list-components.html">
+            
+                    
+                    List Components
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.16" data-path="33.format-text-via-component.html">
+            
+                <a href="33.format-text-via-component.html">
+            
+                    
+                    Format Text via Component
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.17" data-path="34.share-tracking-logic.html">
+            
+                <a href="34.share-tracking-logic.html">
+            
+                    
+                    Share Tracking Logic
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Anti-Patterns
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../anti-patterns/">
+            
+                <a href="../anti-patterns/">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../anti-patterns/01.props-in-initial-state.html">
+            
+                <a href="../anti-patterns/01.props-in-initial-state.html">
+            
+                    
+                    Props In Initial State
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../anti-patterns/02.findDOMNode.html">
+            
+                <a href="../anti-patterns/02.findDOMNode.html">
+            
+                    
+                    findDOMNode()
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../anti-patterns/03.mixins.html">
+            
+                <a href="../anti-patterns/03.mixins.html">
+            
+                    
+                    Mixins
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../anti-patterns/04.setState-in-componentWillMount.html">
+            
+                <a href="../anti-patterns/04.setState-in-componentWillMount.html">
+            
+                    
+                    setState() in componentWillMount()
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../anti-patterns/05.mutating-state.html">
+            
+                <a href="../anti-patterns/05.mutating-state.html">
+            
+                    
+                    Mutating State
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../anti-patterns/06.using-indexes-as-key.html">
+            
+                <a href="../anti-patterns/06.using-indexes-as-key.html">
+            
+                    
+                    Using Indexes as Key
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../anti-patterns/07.spreading-props-dom.html">
+            
+                <a href="../anti-patterns/07.spreading-props-dom.html">
+            
+                    
+                    Spreading Props on DOM elements
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    Handling UX Variations
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../ux-variations/">
+            
+                <a href="../ux-variations/">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../ux-variations/01.composing-variations.html">
+            
+                <a href="../ux-variations/01.composing-variations.html">
+            
+                    
+                    Composing UX Variations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../ux-variations/02.toggle-ui-elements.html">
+            
+                <a href="../ux-variations/02.toggle-ui-elements.html">
+            
+                    
+                    Toggle UI Elements
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../ux-variations/03.HOC-feature-toggles.html">
+            
+                <a href="../ux-variations/03.HOC-feature-toggles.html">
+            
+                    
+                    HOC for Feature Toggles
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../ux-variations/04.HOC-props-proxy.html">
+            
+                <a href="../ux-variations/04.HOC-props-proxy.html">
+            
+                    
+                    HOC props proxy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../ux-variations/05.wrapper-components.html">
+            
+                <a href="../ux-variations/05.wrapper-components.html">
+            
+                    
+                    Wrapper Components
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../ux-variations/06.display-order-variations.html">
+            
+                <a href="../ux-variations/06.display-order-variations.html">
+            
+                    
+                    Display Order Variations
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    Perf Tips
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../perf-tips/">
+            
+                <a href="../perf-tips/">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../perf-tips/01.shouldComponentUpdate-check.html">
+            
+                <a href="../perf-tips/01.shouldComponentUpdate-check.html">
+            
+                    
+                    shouldComponentUpdate() check
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../perf-tips/02.pure-component.html">
+            
+                <a href="../perf-tips/02.pure-component.html">
+            
+                    
+                    Using Pure Components
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../perf-tips/03.reselect.html">
+            
+                <a href="../perf-tips/03.reselect.html">
+            
+                    
+                    Using reselect
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    Styling
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../styling/">
+            
+                <a href="../styling/">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../styling/01.stateless-ui-components.html">
+            
+                <a href="../styling/01.stateless-ui-components.html">
+            
+                    
+                    Stateless UI Components
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../styling/02.styles-module.html">
+            
+                <a href="../styling/02.styles-module.html">
+            
+                    
+                    Styles Module
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../styling/03.style-functions.html">
+            
+                <a href="../styling/03.style-functions.html">
+            
+                    
+                    Style Functions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../styling/04.using-npm-modules.html">
+            
+                <a href="../styling/04.using-npm-modules.html">
+            
+                    
+                    npm Modules
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../styling/05.base-component.html">
+            
+                <a href="../styling/05.base-component.html">
+            
+                    
+                    Base Component
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../styling/06.layout-component.html">
+            
+                <a href="../styling/06.layout-component.html">
+            
+                    
+                    Layout Component
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="../styling/07.typography-component.html">
+            
+                <a href="../styling/07.typography-component.html">
+            
+                    
+                    Typography Component
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.9" data-path="../styling/08.HOC-for-styling.html">
+            
+                <a href="../styling/08.HOC-for-styling.html">
+            
+                    
+                    HOC for Styling
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    Gotchas
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../gotchas/">
+            
+                <a href="../gotchas/">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../gotchas/01.pure-render-checks.html">
+            
+                <a href="../gotchas/01.pure-render-checks.html">
+            
+                    
+                    Pure render checks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../gotchas/02.synthetic-events.html">
+            
+                <a href="../gotchas/02.synthetic-events.html">
+            
+                    
+                    Synthetic Events
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../READINGS.html">
+            
+                <a href="../READINGS.html">
+            
+                    
+                    Related Links
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Passing Function To setState()</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x7ED9;setstate&#x4F20;&#x5165;&#x56DE;&#x8C03;&#x51FD;&#x6570;">&#x7ED9;setState&#x4F20;&#x5165;&#x56DE;&#x8C03;&#x51FD;&#x6570;</h1>
+<p>&#x5728;<a href="%22./19.async-nature-of-setState.md%22">async-nature-of-setState</a>&#x4E2D;&#x6211;&#x4EEC;&#x5DF2;&#x7ECF;&#x63D0;&#x5230;&#x8FC7;, setState&#x5176;&#x5B9E;&#x662F;&#x5F02;&#x6B65;&#x7684;. &#x56E0;&#x4E3A;&#x51FA;&#x4E8E;&#x6027;&#x80FD;&#x4F18;&#x5316;&#x8003;&#x8651;, React&#x4F1A;&#x5C06;&#x591A;&#x6B21;setState&#x505A;&#x4E00;&#x6B21;&#x6279;&#x5904;&#x7406;. &#x4E8E;&#x662F;setState&#x5E76;&#x4E0D;&#x4F1A;&#x5728;&#x88AB;&#x8C03;&#x7528;&#x4E4B;&#x540E;&#x7ACB;&#x5373;&#x6539;&#x53D8;&#x6211;&#x4EEC;&#x7684;state.
+&#x8FD9;&#x5C31;&#x610F;&#x5473;&#x7740;&#x4F60;&#x5E76;&#x4E0D;&#x80FD;&#x4F9D;&#x8D56;&#x4E8E;&#x5728;&#x8C03;&#x7528;setState&#x65B9;&#x6CD5;&#x4E4B;&#x540E;state, &#x56E0;&#x4E3A;&#x6B64;&#x65F6;&#x4F60;&#x5E76;&#x4E0D;&#x80FD;&#x786E;&#x8BA4;&#x8BE5;state&#x66F4;&#x65B0;&#x4E0E;&#x5426;. 
+&#x5F53;&#x7136;&#x9488;&#x5BF9;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x6211;&#x4EEC;&#x4E5F;&#x6709;&#x89E3;&#x51B3;&#x529E;&#x6CD5;--&#x7528;&#x524D;&#x4E00;&#x4E2A;state(previous state)&#x4F5C;&#x4E3A;&#x9700;&#x8981;&#x4F20;&#x5165;&#x51FD;&#x6570;&#x7684;&#x53C2;&#x6570;,&#x5C06;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x4F5C;&#x4E3A;&#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;&#x4F20;&#x9012;&#x7ED9;setState. &#x8FD9;&#x6837;&#x505A;&#x80FD;&#x4FDD;&#x8BC1;&#x4F60;&#x4F20;&#x5165;&#x7684;&#x51FD;&#x6570;&#x9700;&#x8981;&#x53D6;&#x5230;&#x7684;state&#x4E00;&#x5B9A;&#x4F1A;&#x662F;&#x88AB;&#x4F20;&#x5165;&#x7684;setState&#x6267;&#x884C;&#x4E4B;&#x540E;&#x7684;state.</p>
+<h4 id="&#x95EE;&#x9898;">&#x95EE;&#x9898;</h4>
+<pre><code class="lang-javascript"><span class="hljs-comment">// assuming this.state.count === 0</span>
+<span class="hljs-keyword">this</span>.setState({count: <span class="hljs-keyword">this</span>.state.count + <span class="hljs-number">1</span>});
+<span class="hljs-keyword">this</span>.setState({count: <span class="hljs-keyword">this</span>.state.count + <span class="hljs-number">1</span>});
+<span class="hljs-keyword">this</span>.setState({count: <span class="hljs-keyword">this</span>.state.count + <span class="hljs-number">1</span>});
+<span class="hljs-comment">// this.state.count === 1, not 3</span>
+</code></pre>
+<h4 id="&#x89E3;&#x51B3;&#x529E;&#x6CD5;">&#x89E3;&#x51B3;&#x529E;&#x6CD5;</h4>
+<pre><code class="lang-javascript"><span class="hljs-keyword">this</span>.setState((prevState, props) =&gt; ({
+  count: prevState.count + props.increment
+}));
+</code></pre>
+<h4 id="&#x4E3E;&#x4E00;&#x53CD;&#x4E09;">&#x4E3E;&#x4E00;&#x53CD;&#x4E09;</h4>
+<pre><code class="lang-javascript"><span class="hljs-comment">// Passing object</span>
+<span class="hljs-keyword">this</span>.setState({ expanded: !<span class="hljs-keyword">this</span>.state.expanded });
+
+<span class="hljs-comment">// Passing function</span>
+<span class="hljs-keyword">this</span>.setState(prevState =&gt; ({ expanded: !prevState.expanded }));
+</code></pre>
+<h3 id="&#x53C2;&#x8003;&#x8D44;&#x6599;">&#x53C2;&#x8003;&#x8D44;&#x6599;:</h3>
+<ul>
+<li><a href="https://medium.com/javascript-scene/setstate-gate-abc10a9b2d82" target="_blank">setState() Gate</a></li>
+<li><a href="http://stackoverflow.com/questions/43428456/do-i-need-to-use-setstatefunction-overload-in-this-case/43440790#43440790" target="_blank">Do I need to use setState(function) overload in this case?</a></li>
+<li><a href="https://medium.freecodecamp.com/functional-setstate-is-the-future-of-react-374f30401b6b" target="_blank">Functional setState is the future of React</a></li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="26.third-party-integration.html" class="navigation navigation-prev " aria-label="Previous page: Third Party Integration">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="28.decorators.html" class="navigation navigation-next " aria-label="Next page: Decorators">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Passing Function To setState()","level":"1.2.10","depth":2,"next":{"title":"Decorators","level":"1.2.11","depth":2,"path":"patterns/28.decorators.md","ref":"./patterns/28.decorators.md","articles":[]},"previous":{"title":"Third Party Integration","level":"1.2.9","depth":2,"path":"patterns/26.third-party-integration.md","ref":"./patterns/26.third-party-integration.md","articles":[]},"dir":"ltr"},"config":{"gitbook":">3.0.0","theme":"default","variables":{},"plugins":["edit-link"],"pluginsConfig":{"edit-link":{"label":"Edit This Page","base":"https://github.com/vasanthk/react-bits/blob/master"},"github":{"url":"https://github.com/vasanthk/react-bits/"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"patterns/27.passing-function-to-setState.md","mtime":"2017-11-27T12:39:36.432Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-11-29T14:57:10.601Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
