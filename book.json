@@ -1,13 +1,48 @@
 {
   "gitbook": ">3.0.0",
-  "plugins": ["edit-link"],
+  "plugins": [
+    "github",
+    "-sharing",
+    "sharing-plus"
+  ],
   "pluginsConfig": {
-    "edit-link": {
-      "base": "https://github.com/vasanthk/react-bits/blob/master",
-      "label": "Edit This Page"
-    },
     "github": {
-      "url": "https://github.com/vasanthk/react-bits/"
+      "url": "https://github.com/hateonion/react-bits-CN/"
+    },
+    "sharing": {
+      "douban": false,
+      "facebook": true,
+      "google": false,
+      "hatenaBookmark": false,
+      "instapaper": false,
+      "line": false,
+      "linkedin": true,
+      "messenger": false,
+      "pocket": true,
+      "qq": true,
+      "qzone": false,
+      "stumbleupon": false,
+      "twitter": true,
+      "viber": false,
+      "vk": false,
+      "weibo": true,
+      "whatsapp": false,
+      "all": [
+        "facebook",
+        "google",
+        "twitter",
+        "weibo",
+        "instapaper",
+        "linkedin",
+        "pocket",
+        "stumbleupon"
+      ]
+    }
+  },
+  "title": "React-Bits 中文版",
+  "links": {
+    "sidebar": {
+      "OY写字的地方": "https://hateonion.me"
     }
   }
 }
