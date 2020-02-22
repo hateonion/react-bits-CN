@@ -2,7 +2,7 @@
 
 有关React，你需要知道的一切
 
-**Gitbook format**: https://hateonion.me/books/react-bits-cn/
+**Gitbook format**: https://hateonion.github.io/react-bits-CN/
 
 原Repo地址 https://github.com/vasanthk/react-bits
 
